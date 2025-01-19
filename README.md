@@ -3,7 +3,8 @@
 This guide provides instructions for enabling GPU passthrough on a Hyper-V virtual machine. It is a translation of the original document found at [FreeDidi](https://www.freedidi.com/9857.html).
 
 
-# Step 1 set the VM name that in Hyper-V as powershell enviroment:
+# Step 1: modify the VM settings
+Run the following PowerShell commands, replacing `[VM_NAME]` with the name of your virtual machine:
 
 ```powershell
 $vm = "[VM_NAME]"
