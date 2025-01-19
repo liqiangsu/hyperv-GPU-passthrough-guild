@@ -1,6 +1,6 @@
 # How to enable GPU on Hyper-V GPU vm
 
-This guide provides instructions for enabling GPU passthrough on a Hyper-V virtual machine. It is a translation of the original document found at [FreeDidi](https://www.freedidi.com/9857.html).
+This guide provides instructions for enabling GPU passthrough on a Hyper-V virtual machine. It is a translation of the original document found at [FreeDidi](https://www.freedidi.com/9857.html). in combine with this [Vidio tutorial](https://www.bilibili.com/video/BV1Fu41177Xj/?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click&vd_source=b2973771919b8bc7d90d211c07483768 )
 
 
 # Step 1: modify the VM settings
