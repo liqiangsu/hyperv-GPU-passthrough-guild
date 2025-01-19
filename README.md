@@ -16,6 +16,7 @@ Set-VM -HighMemoryMappedIoSpace 32GB -VMName $vm
 ```
 
 # Step 2: Copy Driver Files from Host to VM
+1. Find the current host GPU driver file from `Deveice Manager`.  Eg: nvlt.inf_amd64_XXX
 1. Navigate to the driver files on the host machine:  
 Path: `C:\Windows\System32\DriverStore\FileRepository\`
 2. Copy the files to the VM:  
@@ -29,7 +30,8 @@ Destination Path: `C:\Windows\System32\HostDriverStore\FileRepository\`
 1. Locate the driver on the host:  
 Path: `C:\Windows\System32\nvapi64.dll`  
 2. Copy it to the VM:  
-Destination Path: `C:\Windows\System32\nvapi64.dll`  
+Destination Path: `C:\Windows\System32\nvapi64.dll`
+
 
 ## For AMD GPUs:
 Copy all files related to the GPU driver from the host machine.  
